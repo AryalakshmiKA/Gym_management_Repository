@@ -1,0 +1,11 @@
+str1 = "Python Programming"
+print("Number of Characters : ",len(str1))
+print("Our String is ", str1)
+print(str1[0])
+print(str1[4])
+print(str1[0:5])
+print(str1[0:12])
+print(str1[5:])
+print(str1[:6])
+print(str1[0:18:2])
+print(str1[0:18:3])

@@ -1,0 +1,21 @@
+Database : gym_db
+Tables   : members
+            id int, pk, auto iincrement
+            name varchar(100)
+            place varchar(100)
+            mobile varchar(100)
+            plan varchar(100) ,enum
+            fee int
+            joined_on date
+
+------Requirements
+Create a class named GymMemberManger
+1. Connect to database
+    - Establish a connection to the MySQL database
+2. Add Record
+    - Accept all fields values
+    - Insert the Record
+    - Display: Record added successfully
+3. View all records
+4. Update records
+5. Delete records
